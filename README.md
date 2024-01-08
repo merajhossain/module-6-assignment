@@ -6,8 +6,8 @@ This is a assignment for ostad mern course module 6.
 |- index.html </br>
 |- assets</br>
 &nbsp;&nbsp;&nbsp;|-css</br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-bootstrap.min.css
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</br>|-style.css</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-bootstrap.min.css</br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-style.css</br>
 &nbsp;&nbsp;&nbsp;|-img</br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-adult-image.png</br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-child-image.png</br>
