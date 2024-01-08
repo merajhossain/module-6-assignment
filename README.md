@@ -3,11 +3,11 @@ This is a assignment for ostad mern course module 6.
 
 # Folder Structure
 
-|- index.html
-|- assets
-    |-css
-        |-bootstrap.min.css     
-        |-style.css
+|- index.html </br>
+|- assets </br>
+    |-css </br>
+        |-bootstrap.min.css </br>     
+        |-style.css </br>
     |-img
         |-adult-image.png
         |-child-image.png
