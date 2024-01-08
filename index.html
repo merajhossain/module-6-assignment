@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>::Assignment Module 6::</title>
+  </head>
+  <body>
+    <!-- Navbar start-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <h1 class="text-light fw-bolder fs-2 mb-0">MERN</h1>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active text-light" href="#home">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#aboutUs">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar end-->
+    <!-- Banner start-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="p-5 jumbotron-wrapper">
+            <div class="container-fluid py-5">
+              <div class="row align-items-md-center min-height-500">
+                <div class="col-md-4 order-2 order-md-0">
+                  <div class="py-2 py-md-5">
+                    <div class="card bg-transparent border-0">
+                      <div class="card-body px-0">
+                        <h5 class="card-title text-light fw-bolder mb-3">Insert Your Age</h5>
+                          <div class="mb-3">
+                            <input type="number" class="form-control bg-transparent text-light" name="age" min="1" id="age" placeholder="write your age" onchange="ageCalculation(this);" onkeyup="ageCalculation(this);" required>
+                          </div>
+                          <div class="float-end d-none">
+                            <button type="submit" id="submitBtn" class="btn btn-primary submitBtn">Calculate</button>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 adult-card d-none offset-md-2">
+                  <div class="py-5">
+                    <div class="card rounded-0">
+                      <div class="card-image">
+                        <img src="assets/img/adult-image.png" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <p class="card-text fs-3 fw-bolder text-center">You are a adult</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 children-card d-none offset-md-2">
+                  <div class="py-5">
+                    <div class="card rounded-0">
+                      <div class="card-image">
+                        <img src="assets/img/child-image.png" class="card-img-top" alt="...">
+                      </div>
+                      <div class="card-body">
+                        <p class="card-text fs-3 fw-bolder text-center">You are a child</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 offset-md-2 description-card">
+                  <div class="heading-text text-start">
+                    <h1>Age Calculator</h1>
+                  </div>
+                  <div class="description-text text-start">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium nulla ex, in tincidunt lacus semper eu. Sed imperdiet fermentum nibh, vitae consectetur mi tincidunt a. Aenean molestie consectetur lectus sit amet venenatis. Proin et erat eget augue pharetra lobortis. Fusce dignissim non nunc non varius.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Banner end-->
+    <!-- Footer Start-->
+    <footer class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="bg-dark text-light text-center py-3 w-100">
+            <p class="mb-0">&copy; 2024 All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End-->
+    <!-- JavaScript and dependencies -->
+    <script src="./assets/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/scripts.js"></script>
+  </body>
+</html>
